@@ -1,0 +1,8 @@
+/* config/corne.overlay */
+
+/ {
+    chosen {
+        zephyr,display = &oled;
+        zmk,physical-layout = &foostan_corne_5col_layout;
+    };
+};
