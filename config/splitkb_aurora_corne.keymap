@@ -107,7 +107,7 @@
 
         MOUSE {
             bindings = <
-&none  &none     &none         &none      &none       &none    &none      &none      &none      &none   &none  &none
+&none  &none     &none         &none      &none       &none    &kp K_REDO    &kp K_PASTE  &kp K_COPY     &kp K_CUT    &kp K_UNDO  &none
 &none  &kp LGUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHIFT  &none    &trans     &trans     &trans     &trans  &none  &none
 &none  &none     &none         &none      &none       &none    &none      &none      &none      &none   &none  &none
                                &none      &none       &none    &mkp RCLK  &mkp LCLK  &mkp MCLK
@@ -116,7 +116,7 @@
 
         BUTTON {
             bindings = <
-&none  &trans    &trans        &trans     &trans      &trans       &trans     &trans      &trans     &trans    &trans    &none
+&none  &kp K_UNDO    &kp K_CUT        &kp K_COPY     &kp K_PASTE     &kp K_REDO       &kp K_REDO    &kp K_PASTE  &kp K_COPY     &kp K_CUT    &kp K_UNDO  &none
 &none  &kp LGUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHIFT  &none        &none      &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI  &none
 &none  &trans    &trans        &trans     &trans      &trans       &trans     &trans      &trans     &trans    &trans    &none
                                &mkp MCLK  &mkp LCLK   &mkp RCLK    &mkp RCLK  &mkp LCLK   &mkp MCLK
