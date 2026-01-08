@@ -28,4 +28,4 @@ include:
   - board: nice_nano_v2
     artifact-name: splitkb_aurora_corne_dongle
     shield: splitkb_aurora_corne nice_view_adapter nice_oled
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y -DCONF_FILE=splitkb_aurora_corne_dongle.conf
+    # cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y -DCONF_FILE=splitkb_aurora_corne_dongle.conf
