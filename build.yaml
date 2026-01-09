@@ -17,4 +17,4 @@ include:
     artifact-name: splitkb_aurora_corne_dongle
     shield: splitkb_aurora_corne_dongle
     # shield: splitkb_aurora_corne_dongle nice_oled
-    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=n
+    cmake-args: -DCONFIG_ZMK_SPLIT=y -DCONFIG_ZMK_SPLIT_ROLE_CENTRAL=y
