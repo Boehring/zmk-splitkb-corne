@@ -93,16 +93,16 @@
 &kp BSLH   &kp AMPS    &kp ASTRK    &kp LBRC   &kp RBRC     &none   &none        &none      &none        &none
 &kp COLON  &kp DOLLAR  &kp PERCENT  &kp CARET  &kp PLUS     &none   &kp RSHIFT   &kp RCTRL  &kp RALT     &kp RGUI
 &kp TILDE  &kp EXCL    &kp AT       &kp HASH   &kp PIPE     &none   &arrow_func  &not_eq    &lamda_func  &none
-                              &kp LPAR     &kp RPAR   &kp MINUS    &trans  &none        &none
+                       &kp LPAR     &kp RPAR   &kp MINUS    &trans  &none        &none
             >;
         };
 
         FUN {
             bindings = <
-&kp F12  &kp F7  &kp F8              &kp F9     &kp PRINTSCREEN    &none  &none       &none      &none     &none
-&kp F11  &kp F4  &kp F5              &kp F6     &kp SCROLLLOCK     &none  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI
-&kp F10  &kp F1  &kp F2              &kp F3     &kp PAUSE_BREAK    &none  &none       &none      &none     &none
-                        &kp K_CONTEXT_MENU  &kp SPACE  &kp TAB            &none  &none       &trans
+&kp F12  &kp F7     &kp F8              &kp F9      &kp PRINTSCREEN    &none  &none       &none      &none     &none
+&kp F11  &kp F4     &kp F5              &kp F6      &kp SCROLLLOCK     &none  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI
+&kp F10  &kp F1     &kp F2              &kp F3      &kp PAUSE_BREAK    &none  &none       &none      &none     &none
+                    &kp K_CONTEXT_MENU  &kp SPACE   &kp TAB            &none  &none       &trans
             >;
         };
 
@@ -111,16 +111,16 @@
 &none     &none         &none      &none       &none    &kp K_REDO  &kp K_PASTE     &kp K_COPY      &kp K_CUT     &kp K_UNDO
 &kp LGUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHIFT  &none    &none       &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT
 &none     &none         &none      &none       &none    &none       &none           &none           &none         &none
-                               &none      &none       &none    &mkp RCLK   &mkp LCLK       &mkp MCLK
+                        &none      &none       &none    &mkp RCLK   &mkp LCLK       &mkp MCLK
             >;
         };
 
         BUTTON {
             bindings = <
-&kp K_UNDO  &kp K_CUT     &kp K_COPY  &kp K_PASTE  &kp K_REDO    &kp K_REDO  &kp K_PASTE  &kp K_COPY  &kp K_CUT  &kp K_UNDO
-&kp LGUI    &kp LEFT_ALT  &kp LCTRL   &kp LSHIFT   &none         &none       &kp RSHIFT   &kp RCTRL   &kp RALT   &kp RGUI
-&kp K_UNDO  &kp K_CUT     &kp K_COPY  &kp K_PASTE  &kp K_REDO    &kp K_REDO  &kp K_PASTE  &kp K_COPY  &kp K_CUT  &kp K_UNDO
-                                 &mkp MCLK   &mkp LCLK    &mkp RCLK     &mkp RCLK   &mkp LCLK    &mkp MCLK
+&kp K_UNDO  &kp K_CUT       &kp K_COPY  &kp K_PASTE  &kp K_REDO    &kp K_REDO  &kp K_PASTE  &kp K_COPY  &kp K_CUT  &kp K_UNDO
+&kp LGUI    &kp LEFT_ALT    &kp LCTRL   &kp LSHIFT   &none         &none       &kp RSHIFT   &kp RCTRL   &kp RALT   &kp RGUI
+&kp K_UNDO  &kp K_CUT       &kp K_COPY  &kp K_PASTE  &kp K_REDO    &kp K_REDO  &kp K_PASTE  &kp K_COPY  &kp K_CUT  &kp K_UNDO
+                            &mkp MCLK   &mkp LCLK    &mkp RCLK     &mkp RCLK   &mkp LCLK    &mkp MCLK
             >;
         };
 
@@ -129,7 +129,7 @@
 &none     &none         &none      &none       &none    &none              &none             &none       &none       &none
 &kp LGUI  &kp LEFT_ALT  &kp LCTRL  &kp LSHIFT  &none    &ext_power EP_TOG  &kp RSHIFT        &kp RCTRL   &kp RALT    &kp RGUI
 &none     &none         &none      &none       &none    &none              &bt BT_NXT        &bt BT_PRV  &bt BT_CLR  &bt BT_CLR_ALL
-                               &trans     &none       &none    &kp K_STOP         &kp K_PLAY_PAUSE  &kp K_MUTE
+                        &trans     &none       &none    &kp K_STOP         &kp K_PLAY_PAUSE  &kp K_MUTE
             >;
         };
 
@@ -138,7 +138,7 @@
 &kp LEFT_BRACKET  &kp N7        &kp N8        &kp N9        &kp RIGHT_BRACKET    &none  &none       &none      &none     &none
 &kp SEMI          &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp EQUAL            &none  &kp RSHIFT  &kp RCTRL  &kp RALT  &kp RGUI
 &kp GRAVE         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSLASH        &none  &none       &none      &none     &none
-                                       &kp DOT       &kp N0        &kp MINUS            &none  &trans      &none
+                                &kp DOT       &kp N0        &kp MINUS            &none  &trans      &none
             >;
         };
     };
