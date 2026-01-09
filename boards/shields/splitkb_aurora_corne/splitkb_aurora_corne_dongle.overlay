@@ -22,6 +22,27 @@
     };
 };
 
+&pinctrl {
+    i2c0_default: i2c0_default {
+        group1 {
+            // Sintaxis: NRF_PSEL(FUNCIÓN, PUERTO, PIN)
+            // SDA -> Puerto 0, Pin 20 (Según tu cableado)
+            // SCL -> Puerto 0, Pin 22 (Según tu cableado)
+            psels = <NRF_PSEL(TWIM_SDA, 0, 20)>,
+                    <NRF_PSEL(TWIM_SCL, 0, 22)>;
+            bias-pull-up; // Resistencias pull-up internas (ayudan si el módulo no las tiene)
+        };
+    };
+
+    i2c0_sleep: i2c0_sleep {
+        group1 {
+            psels = <NRF_PSEL(TWIM_SDA, 0, 20)>,
+                    <NRF_PSEL(TWIM_SCL, 0, 22)>;
+            low-power-enable;
+        };
+    };
+};
+
 &pro_micro_i2c {
     status = "okay";
 
