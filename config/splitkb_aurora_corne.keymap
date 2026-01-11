@@ -57,7 +57,7 @@
         BASE {
             bindings = <
 &kp Q        &kp W        &kp E  &kp R      &kp T        &kp Y          &kp U       &kp I          &kp O      &kp P      &hm LGUI A       &hm LALT S
-&hm LCTRL D  &hm LSHFT F  &kp G  &kp H      &hm RSHFT J  &hm RCTRL K    &hm RALT L  &hm RGUI SEMI  &lt 5 Z    &kp X      &kp C            &kp V
+&hm LCTRL D  &hm LSHFT F  &kp G  &kp H      &hm RSHFT J  &hm RCTRL K    &hm RALT L  &hm RGUI SINGLE_QUOTE  &lt 5 Z    &kp X      &kp C            &kp V
 &kp B        &kp N        &kp M  &kp COMMA  &kp DOT      &lt 5 SLASH    &lt 6 ESC   &lt 1 SPACE    &lt 4 TAB  &lt 2 RET  &lt 7 BACKSPACE  &lt 3 DELETE
             >;
         };
