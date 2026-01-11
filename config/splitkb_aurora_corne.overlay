@@ -3,7 +3,7 @@
 / {
     chosen {
         zmk,matrix_transform = &five_column_transform;
-        zephyr,display = &oled;
+        zephyr,display = &nice_oled;
     };
 
     default_transform: keymap_transform_0 {
