@@ -110,9 +110,9 @@
 
         MEDIA {
             bindings = <
-&none       &none           &none       &none       &none       &none               &none               &none       &none       &none
+&bt BT_CLR  &bt BT_CLR_ALL  &none       &none       &none       &none               &none               &none       &none       &none
 &kp LGUI    &kp LEFT_ALT    &kp LCTRL   &kp LSHIFT  &none       &ext_power EP_TOG   &kp RSHIFT          &kp RCTRL   &kp RALT    &kp RGUI  
-&none       &none           &none       &none       &none       &none               &bt BT_NXT          &bt BT_PRV  &bt BT_CLR  &bt BT_CLR_ALL
+&none       &none           &none       &none       &none       &none               &bt BT_NXT          &bt BT_PRV  &none       &none
                             &trans      &none       &none       &kp K_STOP          &kp K_PLAY_PAUSE    &kp K_MUTE
             >;
         };
